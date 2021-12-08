@@ -1,3 +1,8 @@
+/**
+ * @author : Jonathan Birkey
+ * @mailto : jonathan.birkey@gmail.com
+ * @created : 07Dec2021
+ **/
 package com.github.jonathanbirkey.chapter1;
 
 public class Exercise6 {

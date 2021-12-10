@@ -2,8 +2,14 @@
  * @author : Jonathan Birkey
  * @mailto : jonathan.birkey@gmail.com
  * @created : 07Dec2021
+ *
+ * Exercise1.8
+ *(Area and perimeter of a circle) Write a program that displays the area and pe-
+ * rimeter of a circle that has a radius of 5.5 using the following formulas:
+ * perimeter = 2 * radius * Pi
+ * area = radius * radius * Pi
  **/
-package com.github.jonathanbirkey.chapter1;
+package com.github.jonathanbirkey.chapter1.exercises;
 
 public class Exercise8 {
     public static void main(String[] args) {

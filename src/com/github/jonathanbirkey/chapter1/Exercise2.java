@@ -7,7 +7,7 @@
  * (Display five messages) Write a program that displays Welcome to Java five
  * times.
  **/
-package com.github.jonathanbirkey.chapter1.exercises;
+package com.github.jonathanbirkey.chapter1;
 
 public class Exercise2 {
     public static void main(String[] args) {

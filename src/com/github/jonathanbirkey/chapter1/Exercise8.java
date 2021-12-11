@@ -9,7 +9,7 @@
  * perimeter = 2 * radius * Pi
  * area = radius * radius * Pi
  **/
-package com.github.jonathanbirkey.chapter1.exercises;
+package com.github.jonathanbirkey.chapter1;
 
 public class Exercise8 {
     public static void main(String[] args) {

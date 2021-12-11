@@ -16,7 +16,7 @@
  * rate result with the fractional part, one of the values involved in the division must be
  * a number with a decimal point. For example, 5.0 / 4 is 1.25 and 10 / 4.0 is 2.5.
  **/
-package com.github.jonathanbirkey.chapter1.exercises;
+package com.github.jonathanbirkey.chapter1;
 
 public class Exercise11 {
     public static void main(String[] args) {
@@ -27,7 +27,7 @@ public class Exercise11 {
         double immigrants_per_year = sec_per_year / 45.0;
         double growth_rate = births_per_year + immigrants_per_year - deaths_per_year;
         for(int i = 0; i < 5; i++) {
-            System.out.printf("%f\n", current_population);
+            System.out.printf("%d\n", (int) current_population);
             current_population += growth_rate;
         }
     }

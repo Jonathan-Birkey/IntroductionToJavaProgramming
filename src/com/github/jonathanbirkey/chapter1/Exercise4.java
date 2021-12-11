@@ -11,7 +11,7 @@
  *      3    9       27
  *      4    16      64
  **/
-package com.github.jonathanbirkey.chapter1.exercises;
+package com.github.jonathanbirkey.chapter1;
 
 public class Exercise4 {
     public static void main(String[] args) {

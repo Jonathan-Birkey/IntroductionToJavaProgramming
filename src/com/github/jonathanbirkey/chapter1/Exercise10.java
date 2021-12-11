@@ -8,7 +8,7 @@
  * and 30 seconds. Write a program that displays the average speed in miles per
  * hour. (Note 1 mile is equal to 1.6 kilometers.)
  **/
-package com.github.jonathanbirkey.chapter1.exercises;
+package com.github.jonathanbirkey.chapter1;
 
 public class Exercise10 {
     public static void main(String[] args){

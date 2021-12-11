@@ -10,7 +10,7 @@
  *
  * area = width * height
  **/
-package com.github.jonathanbirkey.chapter1.exercises;
+package com.github.jonathanbirkey.chapter1;
 
 public class Exercise9 {
     public static void main (String[] args) {

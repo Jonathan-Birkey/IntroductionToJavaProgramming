@@ -10,7 +10,7 @@
  *     J  J  AAAAA    V V    AAAAA
  *      JJ  A     A    V    A     A
  **/
-package com.github.jonathanbirkey.chapter1.exercises;
+package com.github.jonathanbirkey.chapter1;
 
 public class Exercise3 {
     public static void main(String[] args) {

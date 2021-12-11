@@ -14,7 +14,7 @@
  *  3.4x + 50.2y = 44.5
  *  2.1x + .55y = 5.9
  **/
-package com.github.jonathanbirkey.chapter1.exercises;
+package com.github.jonathanbirkey.chapter1;
 
 public class Exercise13 {
     public static void main(String[] args) {

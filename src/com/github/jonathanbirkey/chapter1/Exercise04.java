@@ -13,7 +13,7 @@
  **/
 package com.github.jonathanbirkey.chapter1;
 
-public class Exercise4 {
+public class Exercise04 {
     public static void main(String[] args) {
         System.out.println("a\ta^2\ta^3");
         System.out.println("1\t1\t1");

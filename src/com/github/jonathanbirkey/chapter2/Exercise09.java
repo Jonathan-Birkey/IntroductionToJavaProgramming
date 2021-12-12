@@ -20,7 +20,7 @@ package com.github.jonathanbirkey.chapter2;
 
 import java.util.Scanner;
 
-public class Exercise9 {
+public class Exercise09 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter v0, v1, and t: ");

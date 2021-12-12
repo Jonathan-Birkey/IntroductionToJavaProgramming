@@ -18,7 +18,7 @@ package com.github.jonathanbirkey.chapter2;
 
 import java.util.Scanner;
 
-public class Exercise1 {
+public class Exercise01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a degree in Celsius: ");

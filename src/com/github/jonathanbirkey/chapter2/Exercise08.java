@@ -16,7 +16,7 @@ package com.github.jonathanbirkey.chapter2;
 
 import java.util.Scanner;
 
-public class Exercise8 {
+public class Exercise08 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the time zone offset to GMT: ");

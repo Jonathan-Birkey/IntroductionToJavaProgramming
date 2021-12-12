@@ -17,7 +17,7 @@ package com.github.jonathanbirkey.chapter3;
 
 import java.util.Scanner;
 
-public class Exercise3 {
+public class Exercise03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a, b, c, d, e, f: ");

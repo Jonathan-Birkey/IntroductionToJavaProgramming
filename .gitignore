@@ -24,6 +24,6 @@ hs_err_pid*
 
 # IDE
 .idea
-IntroductionToJavaPrograming.iml
+IntroductionToJavaProgramming.iml
 *.DS_Store*
 *out*

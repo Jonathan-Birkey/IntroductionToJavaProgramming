@@ -21,6 +21,8 @@ public class Exercise04 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number in pounds: ");
         double lbs = input.nextDouble();
+        input.close();
+
         double kgs = lbs * 0.454;
         System.out.printf("%s pounds is %s kilograms\n", Double.toString(lbs), Double.toString(kgs));
     }

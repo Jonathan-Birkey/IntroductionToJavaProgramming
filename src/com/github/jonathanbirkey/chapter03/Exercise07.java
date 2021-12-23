@@ -19,6 +19,7 @@ public class Exercise07 {
         // Receive the amount
         System.out.print("Enter an amount in double, for example 11.56: ");
         double amount = input.nextDouble();
+        input.close();
         int remainingAmount = (int)(amount * 100);
 
         // Find the number of one dollars

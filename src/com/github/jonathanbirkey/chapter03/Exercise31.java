@@ -38,6 +38,7 @@ public class Exercise31 {
         int convert = input.nextInt();
         System.out.print("Enter the dollar amount: ");
         double amount = input.nextDouble();
+        input.close();
 
         if(convert == 0)
             System.out.printf("$%.2f is %.2f yuan", amount, amount * exchangeRate);

@@ -46,6 +46,8 @@ public class Exercise21 {
         int year = input.nextInt();
         System.out.print("Enter month: 1-12: ");
         int m = input.nextInt();
+        input.close();
+
         if(m < 3) {
             m += 12;
             year -= 1;

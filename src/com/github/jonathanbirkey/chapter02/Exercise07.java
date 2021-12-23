@@ -21,6 +21,8 @@ public class Exercise07 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the number of minutes: ");
         long minutes = input.nextLong();
+        input.close();
+
         long years = minutes / (365 * 24 * 60);
         long minutes_remaining = minutes % (365 * 24 * 60);
         long days = minutes_remaining / (24 * 60);

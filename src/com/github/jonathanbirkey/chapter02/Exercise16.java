@@ -21,6 +21,8 @@ public class Exercise16 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the length of the side: ");
         double s = input.nextDouble();
+        input.close();
+
         double area = (3 * Math.pow(3, .5) / 2) * Math.pow(s, 2);
         System.out.printf("The area of the hexagon is %f", area);
     }

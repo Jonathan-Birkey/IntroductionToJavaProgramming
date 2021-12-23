@@ -26,6 +26,8 @@ public class Exercise23 {
         double mpg = input.nextDouble();
         System.out.print("Enter the price per gallon: ");
         double dollarPerGal = input.nextDouble();
+        input.close();
+
         double cost = (miles / mpg) * dollarPerGal;
         System.out.printf("The cost of driving is $%.2f", cost);
     }

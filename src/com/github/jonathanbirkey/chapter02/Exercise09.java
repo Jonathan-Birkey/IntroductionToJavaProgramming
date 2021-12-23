@@ -27,6 +27,8 @@ public class Exercise09 {
         double v0 = input.nextDouble();
         double v1 = input.nextDouble();
         double t = input.nextDouble();
+        input.close();
+
         double a = (v1 - v0) / t;
         System.out.printf("The average acceleration is %f", a);
     }

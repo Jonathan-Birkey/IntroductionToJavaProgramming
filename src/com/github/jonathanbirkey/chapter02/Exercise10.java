@@ -32,6 +32,8 @@ public class Exercise10 {
         double initialTemp = input.nextDouble();
         System.out.print("Enter the final temperature: ");
         double finalTemp = input.nextDouble();
+        input.close();
+
         double Q = M * (finalTemp - initialTemp) * 4184;
         System.out.printf("The energy needed is %s", Double.toString(Q));
     }

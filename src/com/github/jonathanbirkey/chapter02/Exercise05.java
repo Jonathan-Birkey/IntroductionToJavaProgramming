@@ -21,6 +21,8 @@ public class Exercise05 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the subtotal and a gratuity rate: ");
         double subtotal = input.nextDouble();
+        input.close();
+
         double gratuity_rate = input.nextDouble() / 100;
         double gratuity = subtotal * gratuity_rate;
         double total = subtotal + gratuity;

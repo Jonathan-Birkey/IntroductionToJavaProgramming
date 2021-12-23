@@ -26,6 +26,8 @@ public class Exercise02 {
         System.out.print("Enter the radius and length of a cylinder: ");
         double radius = input.nextDouble();
         double length = input.nextDouble();
+        input.close();
+
         double area = radius * radius * Math.PI;
         double volume = area * length;
         System.out.printf("The area is %s\n", Double.toString(area));

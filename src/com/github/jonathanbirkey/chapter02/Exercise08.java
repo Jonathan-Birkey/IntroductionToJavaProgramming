@@ -21,6 +21,8 @@ public class Exercise08 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the time zone offset to GMT: ");
         long offset = input.nextLong();
+        input.close();
+
         // Obtain the total milliseconds since midnight, Jan 1, 1970
         long totalMilliseconds = System.currentTimeMillis();
 

@@ -30,6 +30,7 @@ public class Exercise02 {
         System.out.print("Enter point 1 (latitude and longitude) in degrees: ");
         double x1 = Math.toRadians(input.nextDouble());
         double y1 = Math.toRadians(input.nextDouble());
+        input.close();
 
         System.out.print("Enter point 2 (latitude and longitude) in degrees: ");
         double x2 = Math.toRadians(input.nextDouble());

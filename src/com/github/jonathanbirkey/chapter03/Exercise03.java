@@ -27,6 +27,7 @@ public class Exercise03 {
         double d = input.nextDouble();
         double e = input.nextDouble();
         double f = input.nextDouble();
+        input.close();
         if(a * d - b * c == 0) {
             System.out.print("The equation has no solution");
         } else {

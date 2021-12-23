@@ -31,6 +31,7 @@ public class Exercise33 {
         System.out.print("Enter weight and price for package 2: ");
         double w2 = input.nextDouble();
         double p2 = input.nextDouble();
+        input.close();
 
         double packageOneUnitPrice = p1 / w1;
         double packageTwoUnitPrice = p2 / w2;

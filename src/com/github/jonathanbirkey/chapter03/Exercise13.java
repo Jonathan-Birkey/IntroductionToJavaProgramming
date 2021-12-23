@@ -21,6 +21,7 @@ public class Exercise13 {
 
         System.out.print("Enter the taxable income: ");
         double income = input.nextDouble();
+        input.close();
 
         // Compute tax
         double tax = 0;

@@ -20,6 +20,8 @@ public class Exercise19 {
         int a = input.nextInt();
         int b = input.nextInt();
         int c = input.nextInt();
+        input.close();
+        
         if(a + b < c || b + c < a || c + a < b)
             System.out.println("Invalid input.");
         else

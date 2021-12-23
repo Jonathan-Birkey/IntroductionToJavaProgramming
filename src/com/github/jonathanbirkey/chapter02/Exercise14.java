@@ -21,6 +21,8 @@ public class Exercise14 {
         double weight = input.nextDouble();
         System.out.print("Enter height in inches: ");
         double height = input.nextDouble();
+        input.close();
+
         weight = weight * 0.45359237;
         height = height * 0.0254;
         double bmi = weight / (height * height);

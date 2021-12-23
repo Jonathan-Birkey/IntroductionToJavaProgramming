@@ -28,6 +28,8 @@ public class Exercise05 {
         int n = input.nextInt();
         System.out.print("Enter the side: ");
         double s = input.nextDouble();
+        input.close();
+
         double area = (n * Math.pow(s, 2)) / (4 * Math.tan(Math.PI / n));
         System.out.printf("The area of the polygon is %f", area);
     }

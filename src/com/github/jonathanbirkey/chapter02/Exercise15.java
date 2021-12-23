@@ -25,6 +25,8 @@ public class Exercise15 {
         System.out.print("Enter x2 and y2: ");
         double x2 = input.nextDouble();
         double y2 = input.nextDouble();
+        input.close();
+
         double distance = Math.pow(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2), 0.5);
         System.out.printf("The distance between the two points is %f", distance);
     }

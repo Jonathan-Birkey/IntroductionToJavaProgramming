@@ -25,6 +25,8 @@ public class Exercise18 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter weight of the package to be shipped: ");
         int weight = input.nextInt();
+        input.close();
+
         if(weight <= 0)
             System.out.println("Invalid input.");
         else if(weight <= 1)

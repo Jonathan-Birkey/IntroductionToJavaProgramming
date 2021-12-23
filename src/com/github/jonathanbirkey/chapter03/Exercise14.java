@@ -19,6 +19,8 @@ public class Exercise14 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter guess (0 for heads, 1 for tails): ");
         int answer = input.nextInt();
+        input.close();
+
         if (answer == randomNumber)
             System.out.println("Correct!");
         else

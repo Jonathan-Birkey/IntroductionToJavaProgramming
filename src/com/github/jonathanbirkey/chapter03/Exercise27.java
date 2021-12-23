@@ -27,6 +27,7 @@ public class Exercise27 {
         // Point P
         double x = input.nextDouble();
         double y = input.nextDouble();
+        input.close();
 
         // Point A
         double x1 = 0;

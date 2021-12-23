@@ -28,6 +28,8 @@ public class Exercise23 {
         System.out.print("Enter a point with two coordinates: ");
         double x = input.nextDouble();
         double y = input.nextDouble();
+        input.close();
+
         if(x > 5 || x < -5 || y > 5 || y < -5)
             System.out.printf("Point (%.2f, %.2f) is not in the rectangle", x, y);
         else

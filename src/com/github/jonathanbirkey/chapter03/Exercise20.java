@@ -25,6 +25,7 @@ public class Exercise20 {
         else {
             System.out.print("Enter the wind speed (>= 2) in miles per hour: ");
             double v = input.nextDouble();
+
             if(v < 2)
                 System.out.println("Invalid wind speed");
             else {
@@ -32,5 +33,6 @@ public class Exercise20 {
                 System.out.printf("The wind chill index is %f", t_wc);
             }
         }
+        input.close();
     }
 }

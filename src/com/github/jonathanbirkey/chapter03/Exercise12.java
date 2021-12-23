@@ -22,6 +22,8 @@ public class Exercise12 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a three-digit integer: ");
         int num = input.nextInt();
+        input.close();
+        
         int tempNum = num;
         int digit1 = tempNum % 10;
         tempNum = tempNum / 100;

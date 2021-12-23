@@ -29,6 +29,8 @@ public class Exercise13 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the monthly saving amount: ");
         double amount = input.nextDouble();
+        input.close();
+
         double balance = 0;
         for(int i = 0; i < 6; i++) {
             balance = (amount + balance) * 1.00417;

@@ -20,6 +20,8 @@ public class Exercise10 {
         Scanner input = new Scanner(System.in);
         System.out.printf("What is %d + %d? ", number1, number2);
         int answer = input.nextInt();
+        input.close();
+
         if (number1 + number2 == answer)
             System.out.print("You are correct!");
         else{

@@ -23,6 +23,8 @@ public class Exercise26 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an integer: ");
         int num = input.nextInt();
+        input.close();
+
         System.out.printf("Is %d divisible by 5 and 6? ", num);
         if(num % 5 == 0 && num % 6 ==0)
             System.out.println("true");

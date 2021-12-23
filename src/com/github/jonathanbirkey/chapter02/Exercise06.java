@@ -23,6 +23,8 @@ public class Exercise06 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number between 0 and 1000: ");
         int num = input.nextInt();
+        input.close();
+
         int tens = num % 10;
         num = num / 10;
         int hundreds = num % 10;

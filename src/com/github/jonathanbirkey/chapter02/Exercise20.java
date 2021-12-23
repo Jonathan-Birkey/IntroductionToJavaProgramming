@@ -23,6 +23,8 @@ public class Exercise20 {
         System.out.print("Enter balance and interest rate (e.g., 3 for 3%): ");
         double balance = input.nextDouble();
         double interestRate = input.nextDouble();
+        input.close();
+
         double interest = balance * (interestRate/120);
         System.out.printf("The interest is %f", interest);
     }

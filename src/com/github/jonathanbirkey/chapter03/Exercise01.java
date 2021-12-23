@@ -37,6 +37,7 @@ public class Exercise01 {
         double a = input.nextDouble();
         double b = input.nextDouble();
         double c = input.nextDouble();
+        input.close();
         double r1 = 0;
         double r2 = 0;
         double discriminant = Math.pow(b, 2) - 4 * a * c;

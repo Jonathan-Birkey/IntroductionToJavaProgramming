@@ -39,6 +39,8 @@ public class Exercise25 {
         double y3 = input.nextDouble();
         double x4 = input.nextDouble();
         double y4 = input.nextDouble();
+        input.close();
+
         double a = (y1-y2);
         double b = -1*(x1-x2);
         double c = (y3-y4);

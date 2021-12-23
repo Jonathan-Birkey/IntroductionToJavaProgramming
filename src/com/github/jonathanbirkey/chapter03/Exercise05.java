@@ -23,6 +23,7 @@ public class Exercise05 {
         int today = input.nextInt();
         System.out.print("Enter the number of days elapsed since today: ");
         int daysElapsed = input.nextInt();
+        input.close();
         int futureDay = (today + daysElapsed) % 7;
         System.out.print("Today is ");
 

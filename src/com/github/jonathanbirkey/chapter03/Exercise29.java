@@ -40,6 +40,7 @@ public class Exercise29 {
         double x2 = input.nextDouble();
         double y2 = input.nextDouble();
         double r2 = input.nextDouble();
+        input.close();
 
         double distanceBetweenCenters = Math.pow(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2), 0.5);
 

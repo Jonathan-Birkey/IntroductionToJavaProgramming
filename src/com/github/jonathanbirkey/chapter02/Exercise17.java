@@ -32,6 +32,8 @@ public class Exercise17 {
         double t_a = input.nextDouble();
         System.out.print("Enter the wind speed (>= 2) in miles per hour: ");
         double v = input.nextDouble();
+        input.close();
+
         double t_wc = 35.74 + (0.6215 * t_a) - (35.75 * Math.pow(v, 0.16)) + (0.4275 * t_a * Math.pow(v, 0.16));
         System.out.printf("The wind chill index is %f", t_wc);
     }

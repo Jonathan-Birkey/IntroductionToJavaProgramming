@@ -20,6 +20,7 @@ public class Exercise11 {
         System.out.print("Enter the month and year: ");
         int month = input.nextInt() - 1;
         int year = input.nextInt();
+        input.close();
 
         boolean isLeapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
         int daysPerMonth = 0;

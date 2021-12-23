@@ -18,6 +18,8 @@ public class Exercise08 {
         int num1 = input.nextInt();
         int num2 = input.nextInt();
         int num3 = input.nextInt();
+        input.close();
+
         int temp = 0;
         if (num1 > num2) {
             temp = num1;

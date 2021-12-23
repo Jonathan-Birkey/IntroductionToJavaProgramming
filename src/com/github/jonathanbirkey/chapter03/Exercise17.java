@@ -27,6 +27,8 @@ public class Exercise17 {
         Scanner input = new Scanner(System.in);
         System.out.print("scissor (0), rock (1), paper (2): ");
         int userPick = input.nextInt();
+        input.close();
+
         switch (computerPick) {
             case 0:
                 System.out.print("The computer is scissor. ");

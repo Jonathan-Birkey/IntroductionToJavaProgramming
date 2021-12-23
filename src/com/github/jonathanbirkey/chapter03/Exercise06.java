@@ -22,6 +22,8 @@ public class Exercise06 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter weight in pounds: ");
         double weight = input.nextDouble();
+        input.close();
+
         System.out.print("Enter feet: ");
         int feet = input.nextInt();
         System.out.print("Enter inches: ");

@@ -38,6 +38,7 @@ public class Exercise32 {
         double y1 = input.nextDouble();
         double x2 = input.nextDouble();
         double y2 = input.nextDouble();
+        input.close();
 
         double condition = (x1 - x0) * (y2 - y0) - (x2 - x0) * (y1 - y0);
 

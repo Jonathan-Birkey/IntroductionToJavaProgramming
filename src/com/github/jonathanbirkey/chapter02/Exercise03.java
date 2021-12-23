@@ -19,6 +19,8 @@ public class Exercise03 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a value for feet: ");
         double feet = input.nextDouble();
+        input.close();
+
         double meters = feet * 0.305;
         System.out.printf("%s feet is %s meters\n", Double.toString(feet), Double.toString(meters));
     }

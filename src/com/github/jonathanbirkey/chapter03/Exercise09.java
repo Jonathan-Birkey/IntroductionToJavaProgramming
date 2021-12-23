@@ -28,6 +28,8 @@ public class Exercise09 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the first 9 digits of an ISBN as integer: ");
         int number = input.nextInt();
+        input.close();
+
         int d9 = number % 10;
         number = number / 10;
         int d8 = number % 10;

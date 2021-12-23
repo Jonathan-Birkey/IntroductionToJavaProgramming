@@ -27,6 +27,7 @@ public class Exercise15 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your lottery pick (three digits): ");
         int guess = input.nextInt();
+        input.close();
 
         // Get digits from lottery
         int tempLottery = lottery;

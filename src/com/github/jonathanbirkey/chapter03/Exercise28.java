@@ -40,6 +40,7 @@ public class Exercise28 {
         double r2Y = input.nextDouble();
         double r2Width = input.nextDouble();
         double r2Height = input.nextDouble();
+        input.close();
 
         double r1LeftEdge = r1X - (r1Width / 2);
         double r1RightEdge = r1X + (r1Width / 2);

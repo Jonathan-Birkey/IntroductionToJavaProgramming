@@ -18,8 +18,9 @@ public class Exercise22 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an amount in int, for example 1156: ");
-
         int amount = input.nextInt();
+        input.close();
+
         int dollars = amount / 100;
         int cents = amount % 100;
         int numberOfQuarters = cents / 25;

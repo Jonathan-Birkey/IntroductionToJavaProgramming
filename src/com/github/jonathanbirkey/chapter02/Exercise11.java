@@ -21,6 +21,8 @@ public class Exercise11 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the number of years: ");
         int numOfYears = input.nextInt();
+        input.close();
+
         double current_population = 312032486;
         long sec_per_year = 365 * 24 * 60 * 60;
         double births_per_year = sec_per_year / 7.0;

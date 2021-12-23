@@ -27,6 +27,8 @@ public class Exercise12 {
         System.out.print("Enter speed and acceleration: ");
         double v = input.nextDouble();
         double a = input.nextDouble();
+        input.close();
+
         double length = (v * v) / (2 * a);
         System.out.printf("The minimum runway length for this airplane is %f\n", length);
     }

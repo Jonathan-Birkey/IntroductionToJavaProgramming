@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 11Dec2021
  *
- * Exercise3.9
+ * Exercise 3.9
  * (Business: check ISBN-10) An ISBN-10 (International Standard Book Number)
  * consists of 10 digits: d_1 d_2 d_3 d_4 d_5 d_6 d_7 d_8 d_9 d_10. The last
  * digit, d_10, is a checksum, which is calculated from the other 9 digits

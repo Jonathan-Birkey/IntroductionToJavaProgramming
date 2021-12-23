@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 07Dec2021
  *
- * Exercise1.7
+ * Exercise 1.7
  * (Approximate Pi) Pi can be computed using the following formula:
  * Pi = 4 * (1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 + ...)
  * Write a program that displays the results of 4 * (1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11)

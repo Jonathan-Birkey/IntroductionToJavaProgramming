@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 22Dec2021
  *
- * Exercise4.2
+ * Exercise 4.2
  * (Geometry: great circle distance) The great circle distance is the distance
  * between two points on the surface of a sphere. Let (x1, y1) and (x2, y2) be the
  * geographical latitude and longitude of two points. The great circle distance

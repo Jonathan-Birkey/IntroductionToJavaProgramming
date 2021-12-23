@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 08Dec2021
  *
- * Exercise2.6
+ * Exercise 2.6
  * (Sum the digits in an integer) Write a program that reads an integer between 0
  * and 1000 and adds all the digits in the integer. For example, if an integer is 932,
  * the sum of all its digits is 14.

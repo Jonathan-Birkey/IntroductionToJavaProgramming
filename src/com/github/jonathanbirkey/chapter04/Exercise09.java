@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 22Dec2021
  *
- * Exercise4.9
+ * Exercise 4.9
  * (Find the Unicode of a character) Write a program that receives a character and
  * displays its Unicode. Here is a sample run:
  **/

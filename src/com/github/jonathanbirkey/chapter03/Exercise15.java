@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 14Dec2021
  *
- * Exercise3.15
+ * Exercise 3.15
  * (Game: lottery) Revise Listing 3.8, Lottery.java, to generate a lottery of a
  * three-digit integer. The program prompts the user to enter a three-digit integer
  * and determines whether the user wins according to the following rules:

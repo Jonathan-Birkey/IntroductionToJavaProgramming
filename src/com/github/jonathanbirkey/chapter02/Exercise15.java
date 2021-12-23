@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 10Dec2021
  *
- * Exercise2.15
+ * Exercise 2.15
  * (Geometry: distance of two points) Write a program that prompts the user to
  * enter two points (x1, y1) and (x2, y2) and displays their distance. The
  * formula for computing the distance is sqrt((x_2 - x_1)^2 + (y_2 - y_1)^2).

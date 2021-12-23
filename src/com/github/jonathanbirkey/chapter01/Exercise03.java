@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 07Dec2021
  *
- * Exercise1.3
+ * Exercise 1.3
  * (Display a pattern) Write a program that displays the following pattern:
  *        J    A    V     V    A
  *        J   A A    V   V    A A

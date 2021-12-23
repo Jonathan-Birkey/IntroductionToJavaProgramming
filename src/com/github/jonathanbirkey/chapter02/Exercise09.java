@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 10Dec2021
  *
- * Exercise2.9
+ * Exercise 2.9
  * (Physics: acceleration) Average acceleration is defined as the change of velocity
  * divided by the time taken to make the change, as given by the following formula:
  *

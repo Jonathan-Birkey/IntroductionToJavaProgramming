@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 10Dec2021
  *
- * Exercise2.12
+ * Exercise 2.12
  * (Physics: finding runway length) Given an airplane’s acceleration a and take-off
  * speed v, you can compute the minimum runway length needed for an airplane to
  * take off using the following formula:

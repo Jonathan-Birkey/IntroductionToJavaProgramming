@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 11Dec2021
  *
- * Exercise3.7
+ * Exercise 3.7
  * (Financial application: monetary units) Modify Listing 2.10, ComputeChange.
  * java, to display the nonzero denominations only, using singular words for single
  * units such as 1 dollar and 1 penny, and plural words for more than one unit such

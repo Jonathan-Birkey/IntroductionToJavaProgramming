@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 22Dec2021
  *
- * Exercise4.5
+ * Exercise 4.5
  * (Geometry: area of a regular polygon) A regular polygon is an n-sided polygon
  * in which all sides are of the same length and all angles have the same degree (i.e.,
  * the polygon is both equilateral and equiangular). The formula for computing the

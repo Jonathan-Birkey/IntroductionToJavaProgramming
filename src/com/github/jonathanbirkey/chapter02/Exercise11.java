@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 10Dec2021
  *
- * Exercise2.11
+ * Exercise 2.11
  * (Population projection) Rewrite Programming Exercise 1.11 to prompt the user
  * to enter the number of years and display the population after the number of years.
  * Use the hint in Programming Exercise 1.11 for this program. Here is a sample

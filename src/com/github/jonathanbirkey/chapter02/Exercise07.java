@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 08Dec2021
  *
- * Exercise1.7
+ * Exercise 2.7
  * (Find the number of years) Write a program that prompts the user to enter the
  * minutes (e.g., 1 billion), and displays the maximum number of years and remain-
  * ing days for the minutes. For simplicity, assume that a year has 365 days. Here is

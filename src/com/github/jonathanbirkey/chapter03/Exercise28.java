@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 21Dec2021
  *
- * Exercise3.28
+ * Exercise 3.28
  * (Geometry: two rectangles) Write a program that prompts the user to enter the
  * center x-, y-coordinates, width, and height of two rectangles and determines
  * whether the second rectangle is inside the first or overlaps with the first, as

@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 22Dec2021
  *
- * Exercise4.6
+ * Exercise 4.6
  * (Random points on a circle) Write a program that generates three random points
  * on a circle centered at (0, 0) with radius 40 and displays three angles in a triangle
  * formed by these three points, as shown in Figure 4.4a. Display the angles in

@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 18Dec2021
  *
- * Exercise3.20
+ * Exercise 3.20
  * (Science: wind-chill temperature) Programming Exercise 2.17 gives a formula to
  * compute the wind-chill temperature. The formula is valid for temperatures in the
  * range between -58°F and 41°F and wind speed greater than or equal to 2. Write

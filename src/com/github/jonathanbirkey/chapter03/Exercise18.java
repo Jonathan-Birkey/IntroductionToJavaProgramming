@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 18Dec2021
  *
- * Exercise3.18
+ * Exercise 3.18
  * (Cost of shipping) A shipping company uses the following function to calculate
  * the cost (in dollars) of shipping based on the weight of the package (in pounds).
  *            3.5, if 0 < 2 <= 1

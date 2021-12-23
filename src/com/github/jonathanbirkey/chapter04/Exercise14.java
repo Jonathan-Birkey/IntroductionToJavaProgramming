@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 23Dec2021
  *
- * Exercise4.14
+ * Exercise 4.14
  * (Convert letter grade to number) Write a program that prompts the user to enter
  * a letter grade A, B, C, D, or F and displays its corresponding numeric value 4, 3,
  * 2, 1, or 0. For other input, display invalid grade. Here is a sample run:

@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 08Dec2021
  *
- * Exercise2.1
+ * Exercise 2.1
  * (Convert Celsius to Fahrenheit) Write a program that reads a Celsius degree in
  * a double value from the console, then converts it to Fahrenheit, and displays the
  * result. The formula for the conversion is as follows:

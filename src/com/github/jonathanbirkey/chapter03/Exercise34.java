@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 21Dec2021
  *
- * Exercise3.34
+ * Exercise 3.34
  * (Geometry: point on line segment) Exercise 3.32 shows how to test whether a
  * point is on an unbounded line. Revise Exercise 3.32 to test whether a point is on
  * a line segment. Write a program that prompts the user to enter the three points for

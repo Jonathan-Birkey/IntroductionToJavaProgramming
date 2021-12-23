@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 08Dec2021
  *
- * Exercise2.3
+ * Exercise 2.3
  * (Convert feet into meters) Write a program that reads a number in feet, converts it
  * to meters, and displays the result. One foot is 0.305 meter. Here is a sample run:
  *

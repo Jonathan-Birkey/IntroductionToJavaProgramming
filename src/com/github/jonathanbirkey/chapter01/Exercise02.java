@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 07Dec2021
  *
- * Exercise1.2
+ * Exercise 1.2
  * (Display five messages) Write a program that displays Welcome to Java five
  * times.
  **/

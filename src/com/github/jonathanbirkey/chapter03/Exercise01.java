@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 10Dec2021
  *
- * Exercise3.1
+ * Exercise 3.1
  * (Algebra: solve quadratic equations) The two roots of a quadratic equation
  * ax^2 + bx + c = 0 can be obtained using the following formula:
  * r1 = (-b + sqrt(b^2 - 4ac)) / 2a and r2 = (-b - sqrt(b^2 - 4ac))

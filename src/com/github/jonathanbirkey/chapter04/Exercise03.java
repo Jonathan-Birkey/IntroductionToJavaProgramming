@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 22Dec2021
  *
- * Exercise4.3
+ * Exercise 4.3
  * (Geography: estimate areas) Use the GPS locations for Atlanta, Georgia;
  * Orlando, Florida; Savannah, Georgia; and Charlotte, North Carolina in the
  * figure in Section 4.1 to compute the estimated area enclosed by these four cities.

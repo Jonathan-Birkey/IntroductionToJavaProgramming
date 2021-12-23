@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 21Dec2021
  *
- * Exercise3.29
+ * Exercise 3.29
  * (Geometry: two circles) Write a program that prompts the user to enter the center
  * coordinates and radii of two circles and determines whether the second circle
  * is inside the first or overlaps with the first, as shown in Figure 3.10. (Hint:

@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 21Dec2021
  *
- * Exercise3.31
+ * Exercise 3.31
  * (Financials: currency exchange) Write a program that prompts the user to enter
  * the exchange rate from currency in U.S. dollars to Chinese RMB. Prompt the
  * user to enter 0 to convert from U.S. dollars to Chinese RMB and 1 to convert

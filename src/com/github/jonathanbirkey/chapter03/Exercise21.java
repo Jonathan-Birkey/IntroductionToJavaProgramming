@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 18Dec2021
  *
- * Exercise3.21
+ * Exercise 3.21
  * (Science: day of the week) Zeller’s congruence is an algorithm developed by
  * Christian Zeller to calculate the day of the week. The formula is
  * h = (q + 26(m + 1)/10 + k + k/4 + j/4 +5j) % 7

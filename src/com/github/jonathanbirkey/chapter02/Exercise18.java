@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 10Dec2021
  *
- * Exercise2.18
+ * Exercise 2.18
  * (Print a table) Write a program that displays the following table. Cast
  * floating-point numbers into integers.
  * a    b   pow(a, b)

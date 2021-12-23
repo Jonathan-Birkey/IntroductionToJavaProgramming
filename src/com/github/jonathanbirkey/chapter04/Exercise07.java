@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 22Dec2021
  *
- * Exercise4.7
+ * Exercise 4.7
  * (Corner point coordinates) Suppose a pentagon is centered at (0, 0) with one point
  * at the 0 o’clock position, as shown in Figure 4.4c. Write a program that prompts
  * the user to enter the radius of the bounding circle of a pentagon and displays the

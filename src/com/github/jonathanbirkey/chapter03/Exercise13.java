@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 12Dec2021
  *
- * Exercise3.13
+ * Exercise 3.13
  * (Financial application: compute taxes) Listing 3.5, ComputeTax.java, gives the
  * source code to compute taxes for single filers. Complete this program to compute
  * taxes for all filing statuses.

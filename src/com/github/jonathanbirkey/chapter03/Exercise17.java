@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 18Dec2021
  *
- * Exercise3.17
+ * Exercise 3.17
  * (Game: scissor, rock, paper) Write a program that plays the popular scissor–
  * rock–paper game. (A scissor can cut a paper, a rock can knock a scissor, and
  * a paper can wrap a rock.) The program randomly generates a number 0, 1, or

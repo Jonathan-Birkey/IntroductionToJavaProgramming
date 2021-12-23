@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 10Dec2021
  *
- * Exercise2.13
+ * Exercise 2.13
  * (Financial application: compound value) Suppose you save $100 each month into
  * a savings account with an annual interest rate of 5%. Thus, the monthly interest
  * rate is 0.05/12 = 0.00417. After the first month, the value in the account becomes

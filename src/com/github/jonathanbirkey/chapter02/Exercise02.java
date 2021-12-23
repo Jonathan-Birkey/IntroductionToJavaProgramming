@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 08Dec2021
  *
- * Exercise2.2
+ * Exercise 2.2
  * (Compute the volume of a cylinder) Write a program that reads in the radius
  * and length of a cylinder and computes the area and volume using the following
  * formulas:

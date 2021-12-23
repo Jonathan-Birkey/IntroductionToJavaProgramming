@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 07Dec2021
  *
- * Exercise1.11
+ * Exercise 1.11
  * (Population projection) The U.S. Census Bureau projects population based on
  * the following assumptions:
  * • One birth every 7 seconds

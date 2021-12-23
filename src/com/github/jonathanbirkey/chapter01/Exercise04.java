@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 07Dec2021
  *
- * Exercise1.4
+ * Exercise 1.4
  * (Print a table) Write a program that displays the following table:
  *      a    a^2     a^3
  *      1    1       1

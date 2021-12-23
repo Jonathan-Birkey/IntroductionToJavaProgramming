@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 21Dec2021
  *
- * Exercise3.30
+ * Exercise 3.30
  * (Current time) Revise Programming Exercise 2.8 to display the hour using a
  * 12-hour clock. Here is a sample run:
  *

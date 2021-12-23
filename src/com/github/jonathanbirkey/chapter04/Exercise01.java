@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 22Dec2021
  *
- * Exercise4.1
+ * Exercise 4.1
  * (Geometry: area of a pentagon) Write a program that prompts the user to enter
  * the length from the center of a pentagon to a vertex and computes the area of the
  * pentagon, as shown in the following figure.

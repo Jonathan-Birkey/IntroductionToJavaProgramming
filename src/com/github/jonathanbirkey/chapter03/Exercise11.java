@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 11Dec2021
  *
- * Exercise3.11
+ * Exercise 3.11
  * (Find the number of days in a month) Write a program that prompts the user
  * to enter the month and year and displays the number of days in the month. For
  * example, if the user entered month 2 and year 2012, the program should display

@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 10Dec2021
  *
- * Exercise2.14
+ * Exercise 2.14
  * (Health application: computing BMI) Body Mass Index (BMI) is a measure of
  * health on weight. It can be calculated by taking your weight in kilograms and dividing,
  * by the square of your height in meters. Write a program that prompts the user to

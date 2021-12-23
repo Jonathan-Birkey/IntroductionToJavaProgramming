@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 10Dec2021
  *
- * Exercise2.22
+ * Exercise 2.22
  * (Financial application: monetary units) Rewrite Listing 2.10,
  * ComputeChange.java, to fix the possible loss of accuracy when converting
  * a double value to an int value. Enter the input as an integer whose last

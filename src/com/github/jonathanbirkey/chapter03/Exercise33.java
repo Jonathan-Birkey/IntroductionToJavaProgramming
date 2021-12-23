@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 21Dec2021
  *
- * Exercise3.33
+ * Exercise 3.33
  * (Financial: compare costs) Suppose you shop for rice in two different packages.
  * You would like to write a program to compare the cost. The program prompts the
  * user to enter the weight and price of each package and displays the one with the

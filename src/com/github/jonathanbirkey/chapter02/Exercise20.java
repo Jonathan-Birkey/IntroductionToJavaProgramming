@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 10Dec2021
  *
- * Exercise2.20
+ * Exercise 2.20
  * (Financial application: calculate interest) If you know the balance and the
  * annual percentage interest rate, you can compute the interest on the next monthly
  * payment using the following formula:

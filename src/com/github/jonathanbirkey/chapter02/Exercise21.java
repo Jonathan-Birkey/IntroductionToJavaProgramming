@@ -3,7 +3,7 @@
  * @mailto : jonathan.birkey@gmail.com
  * @created : 10Dec2021
  *
- * Exercise2.21
+ * Exercise 2.21
  * (Financial application: calculate future investment value) Write a program that
  * reads in investment amount, annual interest rate, and number of years and
  * displays the future investment value using the following formula:

@@ -13,8 +13,8 @@
  * After the third month, the value in the account becomes
  * (100 + 201.252) * (1 + 0.00417) = 302.507
  * and so on.
- * Write a program that prompts the user to enter a monthly saving amount and dis-
- * plays the account value after the sixth month. (In Programming Exercise 5.30, you
+ * Write a program that prompts the user to enter a monthly saving amount and displays
+ * the account value after the sixth month. (In Programming Exercise 5.30, you
  * will use a loop to simplify the code and display the account value for any month.)
  *
  * Enter the monthly saving amount: 100

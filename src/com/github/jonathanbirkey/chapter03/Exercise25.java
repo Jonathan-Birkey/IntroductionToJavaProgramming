@@ -14,8 +14,8 @@
  *
  * This linear equation can be solved using Cramer’s rule (see Programming
  * Exercise 3.3). If the equation has no solutions, the two lines are parallel (see
- * Figure 3.8c). Write a program that prompts the user to enter four points and dis-
- * plays the intersecting point. Here are sample runs:
+ * Figure 3.8c). Write a program that prompts the user to enter four points and
+ * displays the intersecting point. Here are sample runs:
  *
  *  Enter x1, y1, x2, y2, x3, y3, x4, y4: 2 2 5 −1.0 4.0 2.0 −1.0 −2.0
  *  The intersecting point is at (2.88889, 1.1111)

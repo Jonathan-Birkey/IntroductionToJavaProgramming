@@ -5,8 +5,8 @@
  *
  * Exercise3.10
  * (Game: addition quiz) Listing 3.3, SubtractionQuiz.java, randomly generates a
- * subtraction question. Revise the program to randomly generate an addition ques-
- * tion with two integers less than 100.
+ * subtraction question. Revise the program to randomly generate an addition
+ * question with two integers less than 100.
  **/
 package com.github.jonathanbirkey.chapter03;
 

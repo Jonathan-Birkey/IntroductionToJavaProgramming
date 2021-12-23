@@ -10,14 +10,15 @@
  * using the following formula:
  * (d_1 * 1 + d_2 * 2 + d_3 * 3 + d_4 * 4 + d_5 * 5 +
  *  d_6 * 6 + d_7 * 7 + d_8 * 8 + d_9 * 9) % 11
- *  If the checksum is 10, the last digit is denoted as X according to the ISBN-10
- *  convention. Write a program that prompts the user to enter the first 9 digits and
- *  displays the 10-digit ISBN (including leading zeros). Your program should read
- *  the input as an integer. Here are sample runs:
- *  Enter the first 9 digits of an ISBN as integer: 013601267
- *  The ISBN-10 number is 0136012671
- *  Enter the first 9 digits of an ISBN as integer: 013031997
- *  The ISBN-10 number is 013031997X
+ * If the checksum is 10, the last digit is denoted as X according to the ISBN-10
+ * convention. Write a program that prompts the user to enter the first 9 digits and
+ * displays the 10-digit ISBN (including leading zeros). Your program should read
+ * the input as an integer. Here are sample runs:
+ *
+ * Enter the first 9 digits of an ISBN as integer: 013601267
+ * The ISBN-10 number is 0136012671
+ * Enter the first 9 digits of an ISBN as integer: 013031997
+ * The ISBN-10 number is 013031997X
  **/
 package com.github.jonathanbirkey.chapter03;
 

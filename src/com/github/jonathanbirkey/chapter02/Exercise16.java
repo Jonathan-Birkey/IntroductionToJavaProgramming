@@ -9,6 +9,7 @@
  * hexagon is
  * Area = (3 * sqrt(3) / 2) * s^2
  * where s is the length of a side. Here is a sample run:
+ *
  * Enter the length of the side: 5.5
  * The area of the hexagon is 78.5918
  **/

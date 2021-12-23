@@ -4,9 +4,10 @@
  * @created : 14Dec2021
  *
  * Exercise3.15
- * (Game: lottery) Revise Listing 3.8, Lottery.java, to generate a lottery of a three-
- * digit integer. The program prompts the user to enter a three-digit integer and
- * determines whether the user wins according to the following rules:
+ * (Game: lottery) Revise Listing 3.8, Lottery.java, to generate a lottery of a
+ * three-digit integer. The program prompts the user to enter a three-digit integer
+ * and determines whether the user wins according to the following rules:
+ *
  * 1. If the user input matches the lottery number in the exact order, the award is
  *    $10,000.
  * 2. If all digits in the user input match all digits in the lottery number, the award

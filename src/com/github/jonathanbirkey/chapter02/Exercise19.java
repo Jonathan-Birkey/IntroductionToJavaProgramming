@@ -10,6 +10,7 @@
  * s = (side1 + side2 + side3)/2;
  * area = sqrt(s(s - side1)(s - side2)(s - side3))
  * Here is a sample run:
+ *
  * Enter the coordinates of three points separated by spaces
  * like x1 y1 x2 y2 x3 y3: 1.5 -3.4 4.6 5 9.5 -3.4
  * The area of the triangle is 33.6

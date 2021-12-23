@@ -2,6 +2,14 @@
  * @author : Jonathan Birkey
  * @mailto : jonathan.birkey@gmail.com
  * @created : 18Dec2021
+ *
+ * Exercise3.20
+ * (Science: wind-chill temperature) Programming Exercise 2.17 gives a formula to
+ * compute the wind-chill temperature. The formula is valid for temperatures in the
+ * range between -58°F and 41°F and wind speed greater than or equal to 2. Write
+ * a program that prompts the user to enter a temperature and a wind speed. The
+ * program displays the wind-chill temperature if the input is valid; otherwise, it dis-
+ * plays a message indicating whether the temperature and/or wind speed is invalid.
  **/
 package com.github.jonathanbirkey.chapter03;
 

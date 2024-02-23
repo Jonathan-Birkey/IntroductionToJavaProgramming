@@ -27,3 +27,4 @@ hs_err_pid*
 IntroductionToJavaProgramming.iml
 *.DS_Store*
 *out*
+/bin/

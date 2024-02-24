@@ -29,9 +29,12 @@ public class Exercise11 {
         System.out.print("January ");
         break;
       case 1:
-        if (isLeapYear) daysPerMonth = 29;
-        else daysPerMonth = 28;
-        System.out.print("February ");
+        if (isLeapYear) {
+          daysPerMonth = 29;
+        } else {
+          daysPerMonth = 28;
+          System.out.print("February ");
+        }
         break;
       case 2:
         daysPerMonth = 31;
@@ -72,6 +75,8 @@ public class Exercise11 {
       case 11:
         daysPerMonth = 31;
         System.out.print("December ");
+      default:
+        System.out.print("Invalid Month");
     }
     System.out.printf("%d has %d days.", year, daysPerMonth);
   }

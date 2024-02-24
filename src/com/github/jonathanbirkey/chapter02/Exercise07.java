@@ -20,8 +20,8 @@ public class Exercise07 {
     input.close();
 
     long years = minutes / (365 * 24 * 60);
-    long minutes_remaining = minutes % (365 * 24 * 60);
-    long days = minutes_remaining / (24 * 60);
+    long minutesRemaining = minutes % (365 * 24 * 60);
+    long days = minutesRemaining / (24 * 60);
     System.out.printf("%d minutes is approximately %d years and %d days\n", minutes, years, days);
   }
 }

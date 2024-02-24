@@ -20,7 +20,10 @@ public class Exercise19 {
     int c = input.nextInt();
     input.close();
 
-    if (a + b < c || b + c < a || c + a < b) System.out.println("Invalid input.");
-    else System.out.printf("perimeter is %d", a + b + c);
+    if (a + b < c || b + c < a || c + a < b) {
+      System.out.println("Invalid input.");
+    } else {
+      System.out.printf("perimeter is %d", a + b + c);
+    }
   }
 }

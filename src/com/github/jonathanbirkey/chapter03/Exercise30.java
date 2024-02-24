@@ -38,11 +38,12 @@ public class Exercise30 {
     // Compute the current hour
     long currentHour = (totalHours % 24) + offset;
 
-    if (currentHour > 12)
+    if (currentHour > 12) {
       System.out.printf(
           "The current time is %d:%d:%d PM\n", currentHour - 12, currentMinute, currentSecond);
-    else
+    } else {
       System.out.printf(
           "The current time is %d:%d:%d AM\n", currentHour, currentMinute, currentSecond);
+    }
   }
 }

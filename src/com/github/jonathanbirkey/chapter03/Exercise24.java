@@ -54,6 +54,8 @@ public class Exercise24 {
         break;
       case 12:
         System.out.print("King of ");
+      default:
+        System.out.print("Invalid");
     }
     switch (suit) {
       case 0:
@@ -67,6 +69,8 @@ public class Exercise24 {
         break;
       case 3:
         System.out.print("Diamonds");
+      default:
+        System.out.print("Invalid");
     }
   }
 }

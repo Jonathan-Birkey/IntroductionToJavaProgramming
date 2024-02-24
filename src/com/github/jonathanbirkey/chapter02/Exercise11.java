@@ -18,15 +18,15 @@ public class Exercise11 {
     int numOfYears = input.nextInt();
     input.close();
 
-    double current_population = 312032486;
-    long sec_per_year = 365 * 24 * 60 * 60;
-    double births_per_year = sec_per_year / 7.0;
-    double deaths_per_year = sec_per_year / 13.0;
-    double immigrants_per_year = sec_per_year / 45.0;
-    double growth_rate = births_per_year + immigrants_per_year - deaths_per_year;
+    double currentPopulation = 312032486;
+    long secPerYear = 365 * 24 * 60 * 60;
+    double birthsPerYear = secPerYear / 7.0;
+    double deathsPerYear = secPerYear / 13.0;
+    double immigrantsPerYear = secPerYear / 45.0;
+    double growthRate = birthsPerYear + immigrantsPerYear - deathsPerYear;
     for (int i = 0; i < numOfYears; i++) {
-      current_population += growth_rate;
+      currentPopulation += growthRate;
     }
-    System.out.printf("The population in %d years is %d", numOfYears, (int) current_population);
+    System.out.printf("The population in %d years is %d", numOfYears, (int) currentPopulation);
   }
 }

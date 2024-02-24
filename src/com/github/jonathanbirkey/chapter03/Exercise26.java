@@ -21,16 +21,24 @@ public class Exercise26 {
     input.close();
 
     System.out.printf("Is %d divisible by 5 and 6? ", num);
-    if (num % 5 == 0 && num % 6 == 0) System.out.println("true");
-    else System.out.println("false");
+    if (num % 5 == 0 && num % 6 == 0) {
+      System.out.println("true");
+    } else {
+      System.out.println("false");
+    }
 
     System.out.printf("Is %d divisible by 5 or 6? ", num);
-    if (num % 5 == 0 || num % 6 == 0) System.out.println("true");
-    else System.out.println("false");
+    if (num % 5 == 0 || num % 6 == 0) {
+      System.out.println("true");
+    } else {
+      System.out.println("false");
+    }
 
     System.out.printf("Is %d divisible by 5 or 6, but not both? ", num);
-    if ((num % 5 == 0 || num % 6 == 0) && !(num % 5 == 0 && num % 6 == 0))
+    if ((num % 5 == 0 || num % 6 == 0) && !(num % 5 == 0 && num % 6 == 0)) {
       System.out.println("true");
-    else System.out.println("false");
+    } else {
+      System.out.println("false");
+    }
   }
 }

@@ -32,9 +32,14 @@ public class Exercise06 {
     double bmi = weightInKilograms / (heightInMeters * heightInMeters);
     // Display result
     System.out.println("BMI is " + bmi);
-    if (bmi < 18.5) System.out.println("Underweight");
-    else if (bmi < 25) System.out.println("Normal");
-    else if (bmi < 30) System.out.println("Overweight");
-    else System.out.println("Obese");
+    if (bmi < 18.5) {
+      System.out.println("Underweight");
+    } else if (bmi < 25) {
+      System.out.println("Normal");
+    } else if (bmi < 30) {
+      System.out.println("Overweight");
+    } else {
+      System.out.println("Obese");
+    }
   }
 }

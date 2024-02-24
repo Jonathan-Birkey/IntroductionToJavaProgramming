@@ -46,7 +46,9 @@ public class Exercise18 {
 
     System.out.println("\nPattern D");
     for (int i = 1; i <= numOfLines; i++) {
-      for (int k = 1; k < numOfLines - (numOfLines - i); k++) System.out.print("  ");
+      for (int k = 1; k < numOfLines - (numOfLines - i); k++) {
+        System.out.print("  ");
+      }
       for (int j = 1; j <= numOfLines; j++) {
         if (j <= numOfLines - i + 1) {
           System.out.printf("%d ", j);

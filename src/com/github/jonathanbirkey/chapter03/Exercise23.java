@@ -24,8 +24,10 @@ public class Exercise23 {
     double y = input.nextDouble();
     input.close();
 
-    if (x > 5 || x < -5 || y > 5 || y < -5)
+    if (x > 5 || x < -5 || y > 5 || y < -5) {
       System.out.printf("Point (%.2f, %.2f) is not in the rectangle", x, y);
-    else System.out.printf("Point (%.2f, %.2f) is in the rectangle", x, y);
+    } else {
+      System.out.printf("Point (%.2f, %.2f) is in the rectangle", x, y);
+    }
   }
 }

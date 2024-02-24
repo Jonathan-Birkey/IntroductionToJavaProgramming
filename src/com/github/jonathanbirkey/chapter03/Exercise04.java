@@ -47,6 +47,8 @@ public class Exercise04 {
         break;
       case 11:
         System.out.println("December");
+      default:
+        System.out.print("Invalid");
     }
   }
 }

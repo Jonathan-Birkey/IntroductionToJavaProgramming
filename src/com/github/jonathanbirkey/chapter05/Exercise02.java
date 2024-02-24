@@ -12,14 +12,14 @@ import java.util.Scanner;
 
 public class Exercise02 {
   public static void main(String[] args) {
-    final int NUMBER_OF_QUESTIONS = 10;
+    final int numberOfQuestions = 10;
     int correctCount = 0;
     int count = 0;
     long startTime = System.currentTimeMillis();
     String output = " ";
     Scanner input = new Scanner(System.in);
 
-    while (count < NUMBER_OF_QUESTIONS) {
+    while (count < numberOfQuestions) {
       int number1 = (int) (Math.random() * 15) + 1;
       int number2 = (int) (Math.random() * 15) + 1;
 

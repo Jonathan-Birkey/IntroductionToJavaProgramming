@@ -20,8 +20,11 @@ public class Exercise26 {
     input.close();
 
     String numberOfOneDollars;
-    if (amount.length() == 3) numberOfOneDollars = "0";
-    else numberOfOneDollars = amount.substring(0, amount.length() - 3);
+    if (amount.length() == 3) {
+      numberOfOneDollars = "0";
+    } else {
+      numberOfOneDollars = amount.substring(0, amount.length() - 3);
+    }
 
     int remainingAmount = Integer.parseInt(amount.substring(amount.length() - 2));
     int numberOfQuarters = remainingAmount / 25;

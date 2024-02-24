@@ -64,6 +64,8 @@ public class Exercise21 {
         break;
       case 6:
         System.out.println("Day of the week is Friday");
+      default:
+        System.out.print("Invalid");
     }
   }
 }

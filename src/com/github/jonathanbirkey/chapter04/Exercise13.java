@@ -28,8 +28,9 @@ public class Exercise13 {
         || letter == 'o'
         || letter == 'O'
         || letter == 'u'
-        || letter == 'U') System.out.printf("%c is a vowel", letter);
-    else if (letter == 'b'
+        || letter == 'U') {
+      System.out.printf("%c is a vowel", letter);
+    } else if (letter == 'b'
         || letter == 'B'
         || letter == 'c'
         || letter == 'C'
@@ -70,7 +71,10 @@ public class Exercise13 {
         || letter == 'y'
         || letter == 'Y'
         || letter == 'z'
-        || letter == 'Z') System.out.printf("%c is a consonant", letter);
-    else System.out.printf("%c is an invalid input", letter);
+        || letter == 'Z') {
+      System.out.printf("%c is a consonant", letter);
+    } else {
+      System.out.printf("%c is an invalid input", letter);
+    }
   }
 }

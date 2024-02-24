@@ -31,6 +31,8 @@ public class Exercise17 {
         break;
       case 2:
         System.out.print("The computer is paper. ");
+      default:
+        System.out.print("Invalide");
     }
     switch (userPick) {
       case 0:
@@ -41,6 +43,8 @@ public class Exercise17 {
         break;
       case 2:
         System.out.print("You are paper");
+      default:
+        System.out.print("Invalide");
     }
     if (computerPick == userPick) {
       System.out.println(" too. It is a draw");

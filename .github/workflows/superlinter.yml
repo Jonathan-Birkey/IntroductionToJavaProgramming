@@ -3,6 +3,8 @@ name: Super-Linter
 
 on: [push, pull_request]
 
+permissions: read-all
+
 jobs:
   super-lint:
     name: Lint code base

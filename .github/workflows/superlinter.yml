@@ -3,12 +3,17 @@ name: Super-Linter
 
 on: [push, pull_request]
 
-permissions: read-all
-
 jobs:
   super-lint:
     name: Lint code base
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: read
+      # To report GitHub Actions status checks
+      statuses: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4

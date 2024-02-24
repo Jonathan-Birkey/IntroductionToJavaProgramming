@@ -38,9 +38,15 @@ public class Exercise23 {
     double netPay = grossPay - totalDeduction;
 
     System.out.printf(
-        "Employee Name: %s\nHours Worked: %.1f\nPay Rate: $%.2f\nGross Pay: $%.2f\nDeductions:\n"
-            + "\tFederal Withholding (%.1f%%): $%.2f\n\tState Withholding (%.1f%%): $%.2f\n\tTotal Deduction: "
-            + "$%.2f\nNet Pay: $%.2f",
+        "Employee Name: %s\n"
+            + "Hours Worked: %.1f\n"
+            + "Pay Rate: $%.2f\n"
+            + "Gross Pay: $%.2f\n"
+            + "Deductions:\n"
+            + "\tFederal Withholding (%.1f%%): $%.2f\n"
+            + "\tState Withholding (%.1f%%): $%.2f\n"
+            + "\tTotal Deduction: $%.2f\n"
+            + "Net Pay: $%.2f",
         name,
         hoursWorked,
         hourlyRate,

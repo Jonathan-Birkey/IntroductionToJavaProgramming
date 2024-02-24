@@ -21,4 +21,4 @@ jobs:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_ALL_CODEBASE: true
-          OUTPUT_DETAILS: detailed
+          LOG_LEVEL: debug

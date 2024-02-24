@@ -20,14 +20,14 @@ public class Exercise10 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.print("Enter the amount of water in kilograms: ");
-    double M = input.nextDouble();
+    double m = input.nextDouble();
     System.out.print("Enter the initial temperature: ");
     double initialTemp = input.nextDouble();
     System.out.print("Enter the final temperature: ");
     double finalTemp = input.nextDouble();
     input.close();
 
-    double Q = M * (finalTemp - initialTemp) * 4184;
-    System.out.printf("The energy needed is %s", Double.toString(Q));
+    double q = m * (finalTemp - initialTemp) * 4184;
+    System.out.printf("The energy needed is %s", Double.toString(q));
   }
 }

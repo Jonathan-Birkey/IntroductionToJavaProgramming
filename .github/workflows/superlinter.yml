@@ -1,7 +1,7 @@
 ---
 name: Super-Linter
 
-on: push
+on: [push, pull_request]
 
 jobs:
   super-lint:
@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Run Super-Linter
         uses: github/super-linter@v5

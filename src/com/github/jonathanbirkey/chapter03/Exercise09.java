@@ -44,8 +44,10 @@ public class Exercise09 {
     number = number / 10;
     int checksum =
         (d1 * 1 + d2 * 2 + d3 * 3 + d4 * 4 + d5 * 5 + d6 * 6 + d7 * 7 + d8 * 8 + d9 * 9) % 11;
-    if (checksum == 10)
+    if (checksum == 10) {
       System.out.printf("%d%d%d%d%d%d%d%d%dX\n", d1, d2, d3, d4, d5, d6, d7, d8, d9);
-    else System.out.printf("%d%d%d%d%d%d%d%d%d%d\n", d1, d2, d3, d4, d5, d6, d7, d8, d9, checksum);
+    } else {
+      System.out.printf("%d%d%d%d%d%d%d%d%d%d\n", d1, d2, d3, d4, d5, d6, d7, d8, d9, checksum);
+    }
   }
 }

@@ -42,12 +42,20 @@ public class Exercise17 {
       case 2:
         System.out.print("You are paper");
     }
-    if (computerPick == userPick) System.out.println(" too. It is a draw");
-    else if (computerPick == 0 && userPick == 1) System.out.println(". You won");
-    else if (computerPick == 1 && userPick == 2) System.out.println(". You won");
-    else if (computerPick == 2 && userPick == 0) System.out.println(". You won");
-    else if (computerPick == 0 && userPick == 2) System.out.println(". You lost");
-    else if (computerPick == 1 && userPick == 0) System.out.println(". You lost");
-    else if (computerPick == 2 && userPick == 1) System.out.println(". You lost");
+    if (computerPick == userPick) {
+      System.out.println(" too. It is a draw");
+    } else if (computerPick == 0 && userPick == 1) {
+      System.out.println(". You won");
+    } else if (computerPick == 1 && userPick == 2) {
+      System.out.println(". You won");
+    } else if (computerPick == 2 && userPick == 0) {
+      System.out.println(". You won");
+    } else if (computerPick == 0 && userPick == 2) {
+      System.out.println(". You lost");
+    } else if (computerPick == 1 && userPick == 0) {
+      System.out.println(". You lost");
+    } else if (computerPick == 2 && userPick == 1) {
+      System.out.println(". You lost");
+    }
   }
 }

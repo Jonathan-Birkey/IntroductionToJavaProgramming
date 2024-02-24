@@ -35,8 +35,12 @@ public class Exercise29 {
 
     double distanceBetweenCenters = Math.pow(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2), 0.5);
 
-    if (distanceBetweenCenters <= r1 - r2) System.out.print("circle2 is inside circle1");
-    else if (distanceBetweenCenters <= r1 + r2) System.out.print("circle2 overlaps circle1");
-    else System.out.print("circle2 does not overlap circle1");
+    if (distanceBetweenCenters <= r1 - r2) {
+      System.out.print("circle2 is inside circle1");
+    } else if (distanceBetweenCenters <= r1 + r2) {
+      System.out.print("circle2 overlaps circle1");
+    } else {
+      System.out.print("circle2 does not overlap circle1");
+    }
   }
 }

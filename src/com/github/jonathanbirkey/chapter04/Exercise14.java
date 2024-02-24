@@ -21,27 +21,22 @@ public class Exercise14 {
 
     switch (grade) {
       case "A":
-        ;
       case "a":
         System.out.printf("The number value for grade %s is 4", grade);
         break;
       case "B":
-        ;
       case "b":
         System.out.printf("The number value for grade %s is 3", grade);
         break;
       case "C":
-        ;
       case "c":
         System.out.printf("The number value for grade %s is 2", grade);
         break;
       case "D":
-        ;
       case "d":
         System.out.printf("The number value for grade %s is 1", grade);
         break;
       case "F":
-        ;
       case "f":
         System.out.printf("The number value for grade %s is 0", grade);
         break;

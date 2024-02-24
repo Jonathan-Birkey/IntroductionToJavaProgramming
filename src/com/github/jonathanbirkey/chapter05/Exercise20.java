@@ -10,13 +10,13 @@ package com.github.jonathanbirkey.chapter05;
 
 public class Exercise20 {
   public static void main(String[] args) {
-    final int NUMBER_OF_PRIMES = 1000;
-    final int NUMBER_OF_PRIMES_PER_LINE = 8;
+    final int numberOfPrimes = 1000;
+    final int numberOfPrimesPerLine = 8;
     int count = 0;
     int number = 2;
 
     System.out.println("The first 1,000 prime numbers are \n");
-    while (count <= NUMBER_OF_PRIMES) {
+    while (count <= numberOfPrimes) {
       boolean isPrime = true;
       for (int divisor = 2; divisor <= number / 2; divisor++) {
         if (number % divisor == 0) {
@@ -26,9 +26,11 @@ public class Exercise20 {
       }
       if (isPrime) {
         count++;
-        if (count % NUMBER_OF_PRIMES_PER_LINE == 0) {
+        if (count % numberOfPrimesPerLine == 0) {
           System.out.println(number);
-        } else System.out.printf("%d ", number);
+        } else {
+          System.out.printf("%d ", number);
+        }
       }
       number++;
     }

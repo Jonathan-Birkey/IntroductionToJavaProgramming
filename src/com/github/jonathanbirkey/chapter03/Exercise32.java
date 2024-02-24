@@ -34,8 +34,12 @@ public class Exercise32 {
 
     double condition = (x1 - x0) * (y2 - y0) - (x2 - x0) * (y1 - y0);
 
-    if (condition > 0) System.out.print("p2 is on the left side of the line");
-    else if (condition == 0) System.out.print("p2 is on the same line");
-    else System.out.print("p2 is on the right side of the line");
+    if (condition > 0) {
+      System.out.print("p2 is on the left side of the line");
+    } else if (condition == 0) {
+      System.out.print("p2 is on the same line");
+    } else {
+      System.out.print("p2 is on the right side of the line");
+    }
   }
 }

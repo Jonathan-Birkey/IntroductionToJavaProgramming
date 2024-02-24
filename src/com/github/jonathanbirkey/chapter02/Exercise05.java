@@ -19,8 +19,8 @@ public class Exercise05 {
     double subtotal = input.nextDouble();
     input.close();
 
-    double gratuity_rate = input.nextDouble() / 100;
-    double gratuity = subtotal * gratuity_rate;
+    double gratuityRate = input.nextDouble() / 100;
+    double gratuity = subtotal * gratuityRate;
     double total = subtotal + gratuity;
     System.out.printf("The gratuity is $%.2f and total is $%.2f\n", gratuity, total);
   }

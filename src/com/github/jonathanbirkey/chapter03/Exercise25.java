@@ -40,8 +40,9 @@ public class Exercise25 {
     double d = -1 * (x3 - x4);
     double e = (y1 - y2) * x1 - (x1 - x2) * y1;
     double f = (y3 - y4) * x3 - (x3 - x4) * y3;
-    if (a * d - b * c == 0) System.out.print("The two lines are parallel");
-    else {
+    if (a * d - b * c == 0) {
+      System.out.print("The two lines are parallel");
+    } else {
       double x = (e * d - b * f) / (a * d - b * c);
       double y = (a * f - e * c) / (a * d - b * c);
       System.out.printf("The intersecting point is at (%f, %f)", x, y);

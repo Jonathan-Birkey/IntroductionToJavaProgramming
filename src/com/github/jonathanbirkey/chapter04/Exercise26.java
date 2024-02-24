@@ -36,16 +36,30 @@ public class Exercise26 {
     int numberOfPennies = remainingAmount;
 
     System.out.printf("Your amount %s consists of\n", amount);
-    if (Integer.parseInt(numberOfOneDollars) > 1)
+    if (Integer.parseInt(numberOfOneDollars) > 1) {
       System.out.printf(" %s dollars\n", numberOfOneDollars);
-    else if (Integer.parseInt(numberOfOneDollars) == 1) System.out.print(" 1 dollar\n");
-    if (numberOfQuarters > 1) System.out.printf(" %d quarters\n", numberOfQuarters);
-    else if (numberOfQuarters == 1) System.out.print(" 1 quarter\n");
-    if (numberOfDimes > 1) System.out.printf(" %d dimes\n", numberOfDimes);
-    else if (numberOfDimes == 1) System.out.print(" 1 dime\n");
-    if (numberOfNickels > 1) System.out.printf(" %d nickels\n", numberOfNickels);
-    else if (numberOfNickels == 1) System.out.print(" 1 nickel\n");
-    if (numberOfPennies > 1) System.out.printf(" %d pennies\n", numberOfPennies);
-    else if (numberOfPennies == 1) System.out.print(" 1 penny");
+    } else if (Integer.parseInt(numberOfOneDollars) == 1) {
+      System.out.print(" 1 dollar\n");
+    }
+    if (numberOfQuarters > 1) {
+      System.out.printf(" %d quarters\n", numberOfQuarters);
+    } else if (numberOfQuarters == 1) {
+      System.out.print(" 1 quarter\n");
+    }
+    if (numberOfDimes > 1) {
+      System.out.printf(" %d dimes\n", numberOfDimes);
+    } else if (numberOfDimes == 1) {
+      System.out.print(" 1 dime\n");
+    }
+    if (numberOfNickels > 1) {
+      System.out.printf(" %d nickels\n", numberOfNickels);
+    } else if (numberOfNickels == 1) {
+      System.out.print(" 1 nickel\n");
+    }
+    if (numberOfPennies > 1) {
+      System.out.printf(" %d pennies\n", numberOfPennies);
+    } else if (numberOfPennies == 1) {
+      System.out.print(" 1 penny");
+    }
   }
 }

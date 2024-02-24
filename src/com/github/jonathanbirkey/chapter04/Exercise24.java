@@ -25,16 +25,25 @@ public class Exercise24 {
     System.out.print("The three cities in alphabetical order are ");
     if (city1.compareTo(city2) < 0 && city1.compareTo(city3) < 0) {
       System.out.printf("%s ", city1);
-      if (city2.compareTo(city3) < 0) System.out.printf("%s %s", city2, city3);
-      else System.out.printf("%s %s", city3, city2);
+      if (city2.compareTo(city3) < 0) {
+        System.out.printf("%s %s", city2, city3);
+      } else {
+        System.out.printf("%s %s", city3, city2);
+      }
     } else if (city2.compareTo(city1) < 0 && city2.compareTo(city3) < 0) {
       System.out.printf("%s ", city2);
-      if (city1.compareTo(city3) < 0) System.out.printf("%s %s", city1, city3);
-      else System.out.printf("%s %s", city3, city1);
+      if (city1.compareTo(city3) < 0) {
+        System.out.printf("%s %s", city1, city3);
+      } else {
+        System.out.printf("%s %s", city3, city1);
+      }
     } else {
       System.out.printf("%s ", city3);
-      if (city1.compareTo(city2) < 0) System.out.printf("%s %s", city1, city2);
-      else System.out.printf("%s %s", city2, city1);
+      if (city1.compareTo(city2) < 0) {
+        System.out.printf("%s %s", city1, city2);
+      } else {
+        System.out.printf("%s %s", city2, city1);
+      }
     }
   }
 }

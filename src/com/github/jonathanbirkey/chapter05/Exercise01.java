@@ -26,8 +26,11 @@ public class Exercise01 {
     double sum = 0;
     while (data != 0) {
       numOfDigits++;
-      if (data > 0) numOfPosDigits++;
-      else if (data < 0) numOfNegDigits++;
+      if (data > 0) {
+        numOfPosDigits++;
+      } else if (data < 0) {
+        numOfNegDigits++;
+      }
       sum += data;
       System.out.print("");
       data = input.nextInt();

@@ -46,11 +46,15 @@ public class Exercise28 {
     if (r2LeftEdge >= r1LeftEdge
         && r2RightEdge <= r1RightEdge
         && r2BottomEdge >= r1BottomEdge
-        && r2TopEdge <= r1TopEdge) System.out.print("r2 is inside r1");
-    else if (r2LeftEdge >= r1LeftEdge && r2LeftEdge <= r1RightEdge
+        && r2TopEdge <= r1TopEdge) {
+      System.out.print("r2 is inside r1");
+    } else if (r2LeftEdge >= r1LeftEdge && r2LeftEdge <= r1RightEdge
         || r2RightEdge <= r1RightEdge && r2RightEdge >= r1LeftEdge
         || r2BottomEdge >= r1BottomEdge && r2BottomEdge <= r1TopEdge
-        || r2TopEdge <= r1TopEdge && r2TopEdge >= r1BottomEdge) System.out.print("r2 overlaps r1");
-    else System.out.print("r2 does not overlap r1");
+        || r2TopEdge <= r1TopEdge && r2TopEdge >= r1BottomEdge) {
+      System.out.print("r2 overlaps r1");
+    } else {
+      System.out.print("r2 does not overlap r1");
+    }
   }
 }

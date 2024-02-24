@@ -16,10 +16,14 @@ public class Exercise19 {
         System.out.print("    ");
       }
       for (int k = 1; k <= numOfLines; k++) {
-        if (k <= i) System.out.printf("%4d", (int) Math.pow(2, k - 1));
+        if (k <= i) {
+          System.out.printf("%4d", (int) Math.pow(2, k - 1));
+        }
       }
       for (int l = numOfLines - 1; l > 0; l--) {
-        if (l < i) System.out.printf("%4d", (int) Math.pow(2, l - 1));
+        if (l < i) {
+          System.out.printf("%4d", (int) Math.pow(2, l - 1));
+        }
       }
       System.out.print("\n");
     }

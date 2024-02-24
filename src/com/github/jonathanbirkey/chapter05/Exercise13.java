@@ -14,7 +14,9 @@ public class Exercise13 {
       if (Math.pow(n, 3) > 12000) {
         n--;
         break;
-      } else n++;
+      } else {
+        n++;
+      }
     }
     System.out.printf("The smallest n such that n^2 > 12,000 is %d", n);
   }

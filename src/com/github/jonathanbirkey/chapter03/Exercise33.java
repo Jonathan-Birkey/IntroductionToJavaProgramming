@@ -30,10 +30,13 @@ public class Exercise33 {
     double packageOneUnitPrice = p1 / w1;
     double packageTwoUnitPrice = p2 / w2;
 
-    if (packageOneUnitPrice < packageTwoUnitPrice)
+    if (packageOneUnitPrice < packageTwoUnitPrice) {
       System.out.print("Package 1 has a better price.");
-    if (packageOneUnitPrice > packageTwoUnitPrice)
+    }
+    if (packageOneUnitPrice > packageTwoUnitPrice) {
       System.out.print("Package 2 has a better price.");
-    else System.out.print("Two package have the same price.");
+    } else {
+      System.out.print("Two package have the same price.");
+    }
   }
 }

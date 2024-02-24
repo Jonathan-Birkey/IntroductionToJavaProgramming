@@ -26,16 +26,25 @@ public class Exercise18 {
     char level = studentData.charAt(1);
 
     if (major != 'M' && major != 'C' && major != 'I'
-        || level != '1' && level != '2' && level != '3' && level != '4')
+        || level != '1' && level != '2' && level != '3' && level != '4') {
       System.out.print("Invalid input");
-    else {
-      if (major == 'M') System.out.print("Mathematics ");
-      else if (major == 'C') System.out.print("Computer Science ");
-      else System.out.print("Information Technology ");
-      if (level == '1') System.out.print("Freshman");
-      else if (level == '2') System.out.print("Sophomore");
-      else if (level == '3') System.out.print("Junior");
-      else System.out.print("Senior");
+    } else {
+      if (major == 'M') {
+        System.out.print("Mathematics ");
+      } else if (major == 'C') {
+        System.out.print("Computer Science ");
+      } else {
+        System.out.print("Information Technology ");
+      }
+      if (level == '1') {
+        System.out.print("Freshman");
+      } else if (level == '2') {
+        System.out.print("Sophomore");
+      } else if (level == '3') {
+        System.out.print("Junior");
+      } else {
+        System.out.print("Senior");
+      }
     }
   }
 }

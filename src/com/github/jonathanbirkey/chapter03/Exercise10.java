@@ -20,8 +20,9 @@ public class Exercise10 {
     int answer = input.nextInt();
     input.close();
 
-    if (number1 + number2 == answer) System.out.print("You are correct!");
-    else {
+    if (number1 + number2 == answer) {
+      System.out.print("You are correct!");
+    } else {
       System.out.println("Your answer is wrong.");
       System.out.printf("%d + %d should be %d", number1, number2, number1 + number2);
     }

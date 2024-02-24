@@ -29,16 +29,24 @@ public class Exercise17 {
           || month.equals("Jul")
           || month.equals("Aug")
           || month.equals("Oct")
-          || month.equals("Dec")) System.out.printf("%s %d has 31 days", month, year);
-      else if (month.equals("Apr")
+          || month.equals("Dec")) {
+        System.out.printf("%s %d has 31 days", month, year);
+      } else if (month.equals("Apr")
           || month.equals("Jun")
           || month.equals("Sep")
-          || month.equals("Nov")) System.out.printf("%s %d has 30 days", month, year);
-      else if (month.equals("Feb")) {
-        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+          || month.equals("Nov")) {
+        System.out.printf("%s %d has 30 days", month, year);
+      } else if (month.equals("Feb")) {
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
           System.out.printf("%s %d has 29 days", month, year);
-        else System.out.printf("%s %d has 28 days", month, year);
-      } else System.out.printf("%s is not a correct month name", month);
-    } else System.out.printf("%s is not a correct month name", month);
+        } else {
+          System.out.printf("%s %d has 28 days", month, year);
+        }
+      } else {
+        System.out.printf("%s is not a correct month name", month);
+      }
+    } else {
+      System.out.printf("%s is not a correct month name", month);
+    }
   }
 }

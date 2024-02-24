@@ -20,13 +20,19 @@ public class Exercise17 {
 
     for (int i = 1; i <= numOfLines; i++) {
       for (int j = numOfLines; j > 1; j--) {
-        if (j <= i) System.out.printf("%d ", j);
-        else System.out.print("  ");
+        if (j <= i) {
+          System.out.printf("%d ", j);
+        } else {
+          System.out.print("  ");
+        }
       }
 
       for (int j = 1; j <= numOfLines; j++) {
-        if (j <= i) System.out.printf("%d ", j);
-        else System.out.print("  ");
+        if (j <= i) {
+          System.out.printf("%d ", j);
+        } else {
+          System.out.print("  ");
+        }
       }
       System.out.print("\n");
     }

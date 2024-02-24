@@ -45,16 +45,29 @@ public class Exercise05 {
         break;
       case 6:
         System.out.print("Saturday");
+        break;
+      default:
+        System.out.print("Invalid Day");
     }
 
     System.out.print(" and the future day is ");
 
-    if (futureDay == 0) System.out.print("Sunday");
-    else if (futureDay == 1) System.out.print("Monday");
-    else if (futureDay == 2) System.out.print("Tuesday");
-    else if (futureDay == 3) System.out.print("Wednesday");
-    else if (futureDay == 4) System.out.print("Thursday");
-    else if (futureDay == 5) System.out.print("Friday");
-    else System.out.print("Saturday");
+    if (futureDay == 0) {
+      System.out.print("Sunday");
+    } else if (futureDay == 1) {
+      System.out.print("Monday");
+    } else if (futureDay == 2) {
+      System.out.print("Tuesday");
+    } else if (futureDay == 3) {
+      System.out.print("Wednesday");
+    } else if (futureDay == 4) {
+      System.out.print("Thursday");
+    } else if (futureDay == 5) {
+      System.out.print("Friday");
+    } else if (futureDay == 6) {
+      System.out.print("Saturday");
+    } else {
+      System.out.print("Invalid Day");
+    }
   }
 }

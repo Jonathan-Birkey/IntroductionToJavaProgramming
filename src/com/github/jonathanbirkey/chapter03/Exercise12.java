@@ -24,7 +24,10 @@ public class Exercise12 {
     int digit1 = tempNum % 10;
     tempNum = tempNum / 100;
     int digit3 = tempNum % 10;
-    if (digit1 == digit3) System.out.printf("%d is a palindrome", num);
-    else System.out.printf("%d is not a palindrome", num);
+    if (digit1 == digit3) {
+      System.out.printf("%d is a palindrome", num);
+    } else {
+      System.out.printf("%d is not a palindrome", num);
+    }
   }
 }

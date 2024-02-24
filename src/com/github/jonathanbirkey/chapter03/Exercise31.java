@@ -29,8 +29,12 @@ public class Exercise31 {
     double amount = input.nextDouble();
     input.close();
 
-    if (convert == 0) System.out.printf("$%.2f is %.2f yuan", amount, amount * exchangeRate);
-    else if (convert == 1) System.out.printf("%.2f yuan is $%.2f", amount, amount / exchangeRate);
-    else System.out.print("Incorrect input");
+    if (convert == 0) {
+      System.out.printf("$%.2f is %.2f yuan", amount, amount * exchangeRate);
+    } else if (convert == 1) {
+      System.out.printf("%.2f yuan is $%.2f", amount, amount / exchangeRate);
+    } else {
+      System.out.print("Incorrect input");
+    }
   }
 }

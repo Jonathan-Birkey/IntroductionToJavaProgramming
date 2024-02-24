@@ -17,20 +17,22 @@ public class Exercise20 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.print("Enter the temperature in Fahrenheit between -58°F and 41°F: ");
-    double t_a = input.nextDouble();
-    if (t_a < -58 || t_a > 41) System.out.println("Invalid temperature");
-    else {
+    double outsideTemp = input.nextDouble();
+    if (outsideTemp < -58 || outsideTemp > 41) {
+      System.out.println("Invalid temperature");
+    } else {
       System.out.print("Enter the wind speed (>= 2) in miles per hour: ");
-      double v = input.nextDouble();
+      double windSpeed = input.nextDouble();
 
-      if (v < 2) System.out.println("Invalid wind speed");
-      else {
-        double t_wc =
+      if (windSpeed < 2) {
+        System.out.println("Invalid wind speed");
+      } else {
+        double windChill =
             35.74
-                + (0.6215 * t_a)
-                - (35.75 * Math.pow(v, 0.16))
-                + (0.4275 * t_a * Math.pow(v, 0.16));
-        System.out.printf("The wind chill index is %f", t_wc);
+                + (0.6215 * outsideTemp)
+                - (35.75 * Math.pow(windSpeed, 0.16))
+                + (0.4275 * outsideTemp * Math.pow(windSpeed, 0.16));
+        System.out.printf("The wind chill index is %f", windChill);
       }
     }
     input.close();

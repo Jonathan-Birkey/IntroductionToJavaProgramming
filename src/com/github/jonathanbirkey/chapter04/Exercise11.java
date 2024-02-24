@@ -20,12 +20,20 @@ public class Exercise11 {
     int decimal = input.nextInt();
     input.close();
 
-    if (0 <= decimal && decimal <= 9) System.out.printf("The hex value is %d", decimal);
-    else if (decimal == 10) System.out.printf("The hex value is %c", 'A');
-    else if (decimal == 11) System.out.printf("The hex value is %c", 'B');
-    else if (decimal == 12) System.out.printf("The hex value is %c", 'C');
-    else if (decimal == 13) System.out.printf("The hex value is %c", 'D');
-    else if (decimal == 14) System.out.printf("The hex value is %c", 'E');
-    else if (decimal == 15) System.out.printf("The hex value is %c", 'F');
+    if (0 <= decimal && decimal <= 9) {
+      System.out.printf("The hex value is %d", decimal);
+    } else if (decimal == 10) {
+      System.out.printf("The hex value is %c", 'A');
+    } else if (decimal == 11) {
+      System.out.printf("The hex value is %c", 'B');
+    } else if (decimal == 12) {
+      System.out.printf("The hex value is %c", 'C');
+    } else if (decimal == 13) {
+      System.out.printf("The hex value is %c", 'D');
+    } else if (decimal == 14) {
+      System.out.printf("The hex value is %c", 'E');
+    } else if (decimal == 15) {
+      System.out.printf("The hex value is %c", 'F');
+    }
   }
 }

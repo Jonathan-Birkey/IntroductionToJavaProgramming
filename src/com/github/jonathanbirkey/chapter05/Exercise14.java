@@ -22,11 +22,17 @@ public class Exercise14 {
     System.out.print("Enter second integer: ");
     int n2 = input.nextInt();
     input.close();
-    if (n1 < n2) d = n1;
-    else d = n2;
+    if (n1 < n2) {
+      d = n1;
+    } else {
+      d = n2;
+    }
     while (true) {
-      if (n1 % d == 0 && n2 % d == 0) break;
-      else d--;
+      if (n1 % d == 0 && n2 % d == 0) {
+        break;
+      } else {
+        d--;
+      }
     }
     System.out.printf("The greatest common divisor of %d and %d is %d", n1, n2, d);
   }

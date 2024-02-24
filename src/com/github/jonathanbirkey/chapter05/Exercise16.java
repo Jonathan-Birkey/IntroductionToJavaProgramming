@@ -24,7 +24,9 @@ public class Exercise16 {
         divisors += d + ", ";
         n = n / d;
         d = 2;
-      } else d++;
+      } else {
+        d++;
+      }
     }
     System.out.printf("The factors of %d are %s%d", number, divisors, n);
   }

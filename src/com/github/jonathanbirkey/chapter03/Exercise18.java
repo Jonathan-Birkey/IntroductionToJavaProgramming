@@ -20,11 +20,18 @@ public class Exercise18 {
     int weight = input.nextInt();
     input.close();
 
-    if (weight <= 0) System.out.println("Invalid input.");
-    else if (weight <= 1) System.out.println("Shipped cost is $3.5");
-    else if (weight <= 3) System.out.println("Shipped cost is $5.5");
-    else if (weight <= 10) System.out.println("Shipped cost is $8.5");
-    else if (weight <= 20) System.out.println("Shipped cost is $10.5");
-    else System.out.println("The package cannot be shipped.");
+    if (weight <= 0) {
+      System.out.println("Invalid input.");
+    } else if (weight <= 1) {
+      System.out.println("Shipped cost is $3.5");
+    } else if (weight <= 3) {
+      System.out.println("Shipped cost is $5.5");
+    } else if (weight <= 10) {
+      System.out.println("Shipped cost is $8.5");
+    } else if (weight <= 20) {
+      System.out.println("Shipped cost is $10.5");
+    } else {
+      System.out.println("The package cannot be shipped.");
+    }
   }
 }

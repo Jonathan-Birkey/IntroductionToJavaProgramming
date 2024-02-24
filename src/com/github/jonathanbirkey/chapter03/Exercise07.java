@@ -41,15 +41,30 @@ public class Exercise07 {
 
     // Display results
     System.out.println("Your amount " + amount + " consists of");
-    if (numberOfOneDollars != 1) System.out.println(" " + numberOfOneDollars + " dollars");
-    else System.out.println(" " + numberOfOneDollars + " dollar");
-    if (numberOfQuarters != 1) System.out.println(" " + numberOfQuarters + " quarters ");
-    else System.out.println(" " + numberOfQuarters + " quarter ");
-    if (numberOfDimes != 1) System.out.println(" " + numberOfDimes + " dimes");
-    else System.out.println(" " + numberOfDimes + " dime");
-    if (numberOfNickels != 1) System.out.println(" " + numberOfNickels + " nickels");
-    else System.out.println(" " + numberOfNickels + " nickel");
-    if (numberOfPennies != 1) System.out.println(" " + numberOfPennies + " pennies");
-    else System.out.println(" " + numberOfPennies + " pennie");
+    if (numberOfOneDollars != 1) {
+      System.out.println(" " + numberOfOneDollars + " dollars");
+    } else {
+      System.out.println(" " + numberOfOneDollars + " dollar");
+    }
+    if (numberOfQuarters != 1) {
+      System.out.println(" " + numberOfQuarters + " quarters ");
+    } else {
+      System.out.println(" " + numberOfQuarters + " quarter ");
+    }
+    if (numberOfDimes != 1) {
+      System.out.println(" " + numberOfDimes + " dimes");
+    } else {
+      System.out.println(" " + numberOfDimes + " dime");
+    }
+    if (numberOfNickels != 1) {
+      System.out.println(" " + numberOfNickels + " nickels");
+    } else {
+      System.out.println(" " + numberOfNickels + " nickel");
+    }
+    if (numberOfPennies != 1) {
+      System.out.println(" " + numberOfPennies + " pennies");
+    } else {
+      System.out.println(" " + numberOfPennies + " pennie");
+    }
   }
 }

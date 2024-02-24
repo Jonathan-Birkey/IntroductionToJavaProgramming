@@ -20,7 +20,10 @@ public class Exercise22 {
     String s2 = input.next();
     input.close();
 
-    if (s1.contains(s2)) System.out.printf("%s is a substring of %s", s2, s1);
-    else System.out.printf("%s is not a substring of %s", s2, s1);
+    if (s1.contains(s2)) {
+      System.out.printf("%s is a substring of %s", s2, s1);
+    } else {
+      System.out.printf("%s is not a substring of %s", s2, s1);
+    }
   }
 }

@@ -22,25 +22,33 @@ public class Exercise10 {
     System.out.print(set1);
     System.out.print("\nEnter N for No and Y for Yes: ");
     char answer = input.next().toUpperCase().charAt(0);
-    if (answer == 'Y') day += 1;
+    if (answer == 'Y') {
+      day += 1;
+    }
 
     System.out.print("Is your birthday in Set2?\n");
     System.out.print(set2);
     System.out.print("\nEnter N for No and Y for Yes: ");
     answer = input.next().toUpperCase().charAt(0);
-    if (answer == 'Y') day += 2;
+    if (answer == 'Y') {
+      day += 2;
+    }
 
     System.out.print("Is your birthday in Set3?\n");
     System.out.print(set3);
     System.out.print("\nEnter N for No and Y for Yes: ");
     answer = input.next().toUpperCase().charAt(0);
-    if (answer == 'Y') day += 4;
+    if (answer == 'Y') {
+      day += 4;
+    }
 
     System.out.print("Is your birthday in Set4?\n");
     System.out.print(set4);
     System.out.print("\nEnter N for No and Y for Yes: ");
     answer = input.next().toUpperCase().charAt(0);
-    if (answer == 'Y') day += 8;
+    if (answer == 'Y') {
+      day += 8;
+    }
 
     System.out.print("Is your birthday in Set5?\n");
     System.out.print(set5);
@@ -48,7 +56,9 @@ public class Exercise10 {
     answer = input.next().toUpperCase().charAt(0);
     input.close();
 
-    if (answer == 'Y') day += 16;
+    if (answer == 'Y') {
+      day += 16;
+    }
 
     System.out.printf("\nYour Birthday is %d!", day);
   }

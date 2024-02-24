@@ -19,7 +19,10 @@ public class Exercise14 {
     int answer = input.nextInt();
     input.close();
 
-    if (answer == randomNumber) System.out.println("Correct!");
-    else System.out.println("Incorrect.");
+    if (answer == randomNumber) {
+      System.out.println("Correct!");
+    } else {
+      System.out.println("Incorrect.");
+    }
   }
 }

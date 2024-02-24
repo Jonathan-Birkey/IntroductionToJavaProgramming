@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class Exercise05 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    System.out.print("Enter today's day: ");
+    System.out.print("Enter today's day (Sunday is 0, Monday is 1, ..., and Saturday is 6): ");
     int today = input.nextInt();
     System.out.print("Enter the number of days elapsed since today: ");
     int daysElapsed = input.nextInt();
@@ -49,27 +49,12 @@ public class Exercise05 {
 
     System.out.print(" and the future day is ");
 
-    switch (futureDay) {
-      case 0:
-        System.out.print("Sunday");
-        break;
-      case 1:
-        System.out.print("Monday");
-        break;
-      case 2:
-        System.out.print("Tuesday");
-        break;
-      case 3:
-        System.out.print("Wednesday");
-        break;
-      case 4:
-        System.out.print("Thursday");
-        break;
-      case 5:
-        System.out.print("Friday");
-        break;
-      case 6:
-        System.out.print("Saturday");
-    }
+    if (futureDay == 0) System.out.print("Sunday");
+    else if (futureDay == 1) System.out.print("Monday");
+    else if (futureDay == 2) System.out.print("Tuesday");
+    else if (futureDay == 3) System.out.print("Wednesday");
+    else if (futureDay == 4) System.out.print("Thursday");
+    else if (futureDay == 5) System.out.print("Friday");
+    else System.out.print("Saturday");
   }
 }

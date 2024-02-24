@@ -36,6 +36,7 @@ public class Exercise23 {
     double stateWithholding = grossPay * stateTaxRate;
     double totalDeduction = federalWithholding + stateWithholding;
     double netPay = grossPay - totalDeduction;
+
     System.out.printf(
         "Employee Name: %s\nHours Worked: %.1f\nPay Rate: $%.2f\nGross Pay: $%.2f\nDeductions:\n"
             + "\tFederal Withholding (%.1f%%): $%.2f\n\tState Withholding (%.1f%%): $%.2f\n\tTotal Deduction: "

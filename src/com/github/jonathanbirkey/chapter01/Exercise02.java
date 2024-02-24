@@ -13,6 +13,4 @@ public class Exercise02 {
     System.out.println("Welcome to Java");
     System.out.println("Welcome to Java");
     System.out.println("Welcome to Java");
-    System.out.println("Welcome to Java");
-  }
-}
+    System.out.println("Welcome to Java");}}

@@ -32,7 +32,6 @@ public class Exercise21 {
     int year = input.nextInt();
     System.out.print("Enter month: 1-12: ");
     int m = input.nextInt();
-    input.close();
 
     if (m < 3) {
       m += 12;
@@ -42,6 +41,7 @@ public class Exercise21 {
     int k = year % 100;
     System.out.print("Enter the day of the month: 1-31: ");
     int q = input.nextInt();
+    input.close();
     int h = (q + ((26 * (m + 1)) / 10) + k + (k / 4) + (j / 4) + 5 * j) % 7;
     switch (h) {
       case 0:

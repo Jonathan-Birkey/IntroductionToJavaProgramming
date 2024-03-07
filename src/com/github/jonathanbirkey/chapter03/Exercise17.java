@@ -31,6 +31,7 @@ public class Exercise17 {
         break;
       case 2:
         System.out.print("The computer is paper. ");
+        break;
       default:
         System.out.print("Invalide");
     }
@@ -43,6 +44,7 @@ public class Exercise17 {
         break;
       case 2:
         System.out.print("You are paper");
+        break;
       default:
         System.out.print("Invalide");
     }

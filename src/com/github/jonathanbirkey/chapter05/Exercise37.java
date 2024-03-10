@@ -18,25 +18,25 @@ public class Exercise37 {
     input.close();
 
     int count = 0;
-    int binary = 0;
+    int binaryNum = 0;
 
     while (decimal > 0) {
       if (decimal % 2 == 0) {
-        binary += 0;
+        binaryNum += 0;
       } else {
-        binary += 1;
+        binaryNum += 1;
       }
       decimal = decimal / 2;
       if (decimal > 0) {
-        binary = binary * 10;
+        binaryNum = binaryNum * 10;
       }
 
       count++;
     }
 
     for (int i = 0; i < count; i++) {
-      System.out.printf("%d", binary % 10);
-      binary = binary / 10;
+      System.out.printf("%d", binaryNum % 10);
+      binaryNum = binaryNum / 10;
     }
   }
 }

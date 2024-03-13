@@ -18,22 +18,21 @@ import java.util.Scanner;
 public class Exercise41 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-   
+
     int max = 0;
     int count = 0;
     int number = -1;
-    
+
     System.out.print("Enter Numbers: ");
-    
-    while(number != 0) {
-    	number = input.nextInt();
-    	if(number > max) {
-    		max = number;
-    		count = 1;
-    	} else if(number == max) {
-    		count++;
-    	}
-    	
+
+    while (number != 0) {
+      number = input.nextInt();
+      if (number > max) {
+        max = number;
+        count = 1;
+      } else if (number == max) {
+        count++;
+      }
     }
     input.close();
     System.out.printf("The largest number is %d\n", max);

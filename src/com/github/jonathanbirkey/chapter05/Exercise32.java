@@ -15,10 +15,9 @@ public class Exercise32 {
     int lotteryDigit1 = (int) (Math.random() * 10);
     int lotteryDigit2 = 0;
     do {
-    	lotteryDigit2 = (int) (Math.random() * 10);
-    }while(lotteryDigit1 == lotteryDigit2);
-    
-    
+      lotteryDigit2 = (int) (Math.random() * 10);
+    } while (lotteryDigit1 == lotteryDigit2);
+
     Scanner input = new Scanner(System.in);
     System.out.print("Enter your lotter pick (two digits): ");
     int guess = input.nextInt();

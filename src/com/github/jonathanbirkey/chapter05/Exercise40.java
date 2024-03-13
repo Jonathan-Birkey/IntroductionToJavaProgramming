@@ -12,15 +12,15 @@ public class Exercise40 {
     int coin = 0;
     int heads = 0;
     int tails = 0;
-    
+
     for (int i = 0; i < 1000000; i++) {
-    	coin = (int)(Math.random()*2);
-    	if(coin == 1) {
-    		heads++;
-    	}else {
-    		tails++;
-    	}
+      coin = (int) (Math.random() * 2);
+      if (coin == 1) {
+        heads++;
+      } else {
+        tails++;
+      }
     }
-    System.out.printf("Heads: %d\nTails: %d",heads, tails);
+    System.out.printf("Heads: %d\nTails: %d", heads, tails);
   }
 }
